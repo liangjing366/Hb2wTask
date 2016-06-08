@@ -29,8 +29,8 @@
 
 ##### PS:
 
-这里强烈建议使用**SSH KEY**来Clone项目。因为用https key Clone的项目默认没有write权限，只有read-only权限，所以当你要更新一个你fork的项目,则会报错，如： 
-* The requested URL returned error: 403.但是！但是！但是！你自己的项目用https key Clone下来，自己推送更新又是没问题的。
+这里强烈建议使用SSH url来Clone项目。因为用https url Clone的项目默认没有write权限，只有read-only权限，所以当你要更新一个你fork的项目,则会报错，如： 
+* “The requested URL returned error: 403”.但是！但是！但是！你自己的项目用https url Clone下来，自己推送更新又是没问题的。
 * 不要用Github去列表中clone项目，经常会报错，请用命令版Clone，然后用Github客户端收到Add项目到客户端中。 
 
 下面是具体操作：再次注意，请使用图中最右红框中的Clone with SSH项目地址样式，在面板中clone。
